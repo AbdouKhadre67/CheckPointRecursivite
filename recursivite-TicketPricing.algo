@@ -1,0 +1,11 @@
+ALGORITHME TicketPricing
+    ENTRÉE : âge (entier)
+    SI âge ≤ 12 ALORS
+        prix ← 10
+    SINON SI âge ≥ 13 ET âge ≤ 17 ALORS
+        prix ← 15
+    SINON
+        prix ← 20
+    FIN SI
+    AFFICHER "Le prix du billet est de", prix, "$."
+FIN ALGORITHME

@@ -1,0 +1,8 @@
+ALGORITHME LeapYearChecker
+    ENTRÉE : année (entier)
+    SI (année MOD 4 = 0 ET année MOD 100 ≠ 0) OU (année MOD 400 = 0) ALORS
+        AFFICHER "L'année", année, "est une année bissextile."
+    SINON
+        AFFICHER "L'année", année, "n'est pas une année bissextile."
+    FIN SI
+FIN ALGORITHME
